@@ -16,7 +16,7 @@ tuesdata <- tidytuesdayR::tt_load(2021, week = 41)
 
 nurses <- tuesdata$nurses
 
-census_api_key("af82fd5acbc866de4f39ede47e1afc566ff05c13", install = TRUE)
+census_api_key("", install = TRUE)
 
 
 #census data median incomes for 2018, 2015, 2009
