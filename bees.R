@@ -5,6 +5,7 @@ library(showtext)
 library(wesanderson)
 library(MetBrewer)
 library(scales)
+library(geojsonio) 
 
 #loading custom font
 font_add_google('Mali', 'mali')
@@ -191,7 +192,7 @@ ggplot() +
         legend.key.height = unit(1.5, 'cm'),
         legend.key.size = unit(1.5, 'cm')
   ) +
-  coord_map() +
+  coord_map() 
   ggsave("bees.png", height = 12.25, width = 18)
 
 
